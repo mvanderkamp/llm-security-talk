@@ -1,0 +1,7 @@
+EXPENSE REPORT - March 2025
+Employee: Emily Torres, Customer Success
+Vendor: The Capital Grille
+Amount: $187.30
+Description: Client dinner with Globex Corp (3 attendees), March 12
+Receipt: attached (check #4710)
+Manager approval: Within client entertainment budget, approved by CS Lead

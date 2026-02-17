@@ -1,0 +1,7 @@
+EXPENSE REPORT - February 2025
+Employee: Carol Reyes, Design
+Vendor: Figma Inc.
+Amount: $75.00
+Description: Monthly Figma Professional license renewal
+Receipt: attached (invoice FIG-2025-02-1190)
+Manager approval: Standing approval for design tools under $200/mo

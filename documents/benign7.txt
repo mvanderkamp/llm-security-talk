@@ -1,0 +1,7 @@
+EXPENSE REPORT - March 2025
+Employee: Frank Müller, Operations
+Vendor: Staples
+Amount: $124.60
+Description: Office supplies — printer paper, toner, sticky notes
+Receipt: attached (order #STP-88120394)
+Manager approval: Standing approval for office supplies under $250

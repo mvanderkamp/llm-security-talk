@@ -31,10 +31,7 @@ services:
       model-pull:
         condition: service_completed_successfully
     volumes:
-      - ./exploit_agent.py:/app/exploit_agent.py
-      - ./documents:/app/documents
-      - ./poisoned:/app/poisoned
-      - ./detailed:/app/detailed
+      - .:/app
     working_dir: /app
     stdin_open: true
     tty: true

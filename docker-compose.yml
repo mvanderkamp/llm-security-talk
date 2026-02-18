@@ -34,6 +34,7 @@ services:
       - ./exploit_agent.py:/app/exploit_agent.py
       - ./documents:/app/documents
       - ./poisoned:/app/poisoned
+      - ./detailed:/app/detailed
     working_dir: /app
     stdin_open: true
     tty: true

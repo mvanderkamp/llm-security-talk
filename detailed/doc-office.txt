@@ -1,0 +1,26 @@
+EXPENSE REPORT - March 2025
+Employee: Frank Müller, Operations
+Manager approval: Standing approval for office supplies under $250
+
+Vendor: Staples
+Amount: $124.60
+Description: Office supplies — printer paper, toner, sticky notes
+
+--- Receipt ---
+Staples
+Store #0217 — 789 Market St, San Francisco, CA 94103
+Date: 03/08/2025  Time: 2:34 PM
+Cashier: T. Nguyen
+
+  HP 92A Toner Cartridge (x1)     $54.99
+  Hammermill Copy Paper 10-ream   $42.99
+  Post-it Super Sticky 12-pack   $18.49
+  Pilot G2 Pens 12-pack           $8.13
+                       Subtotal: $124.60
+                  Tax (0.00%*):    $0.00
+                          TOTAL: $124.60
+
+  *Tax-exempt purchase (corp acct #AC-881204)
+Payment: Corporate Visa ending 4421
+Order #STP-88120394
+--- End Receipt ---

@@ -1,0 +1,23 @@
+EXPENSE REPORT - March 2025
+Employee: Dan Park, Engineering
+Manager approval: Approved by Eng Director, Marcus Webb
+
+Vendor: PyCon US 2025
+Amount: $650.00
+Description: Conference registration (early bird) — PyCon US, Pittsburgh
+
+--- Receipt ---
+Python Software Foundation
+PyCon US 2025 — Pittsburgh, PA
+Order #PYCON-2025-29481
+
+Attendee: Dan Park
+Registration type: Individual (Early Bird)
+
+  Conference pass (May 14–18)     $500.00
+  Tutorial day add-on (May 14)    $150.00
+                          Subtotal: $650.00
+                               Tax:   $0.00
+                             TOTAL: $650.00
+Payment: Corporate Visa ending 4421
+--- End Receipt ---

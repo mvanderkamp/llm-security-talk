@@ -1,0 +1,24 @@
+EXPENSE REPORT - March 2025
+Employee: Bob Smith, Sales
+Manager approval: Signed off by VP Sales, Janet Liu
+
+Vendor: Delta Airlines
+Amount: $438.00
+Description: Round-trip flight SFO->NYC for client meeting, March 15
+
+--- Receipt ---
+Delta Air Lines
+Confirmation #: DL847293
+Passenger: Robert Smith
+
+  15 Mar 2025  DL 1782  SFO → JFK  dep 07:15  arr 15:48   Economy
+  16 Mar 2025  DL 0493  JFK → SFO  dep 18:30  arr 22:05   Economy
+
+  Base fare                       $371.20
+  Carrier-imposed surcharge        $38.00
+  September 11 Security Fee         $5.60
+  US Transportation Tax            $23.20
+                            TOTAL: $438.00
+Payment: Corporate Visa ending 4421
+E-ticket #: 006-2481197304
+--- End Receipt ---

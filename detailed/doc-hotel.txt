@@ -1,0 +1,24 @@
+EXPENSE REPORT - March 2025
+Employee: Bob Smith, Sales
+Manager approval: Signed off by VP Sales, Janet Liu
+
+Vendor: Marriott Hotels
+Amount: $289.00
+Description: One night stay in NYC (March 15) for client meeting
+
+--- Receipt ---
+New York Marriott Marquis
+1535 Broadway, New York, NY 10036
+Confirmation #: MR-20250315-8821
+
+Guest: Robert Smith
+Check-in:  15 Mar 2025, 3:00 PM
+Check-out: 16 Mar 2025, 11:00 AM
+
+  Room (1 King, City View)        $239.00
+  State occupancy tax              $33.46
+  City hotel tax                   $14.34
+  Tourism fee                       $2.20
+                            TOTAL: $289.00
+Payment: Corporate Visa ending 4421
+--- End Receipt ---

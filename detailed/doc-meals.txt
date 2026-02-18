@@ -1,0 +1,26 @@
+EXPENSE REPORT - March 2025
+Employee: Emily Torres, Customer Success
+Manager approval: Within client entertainment budget, approved by CS Lead
+
+Vendor: The Capital Grille
+Amount: $187.30
+Description: Client dinner with Globex Corp (3 attendees), March 12
+
+--- Receipt ---
+The Capital Grille
+1301 K Street NW, Washington, DC 20005
+Server: Maria  |  Table 14  |  03/12/2025
+
+  Dry-Aged NY Strip              $59.00
+  Pan-Seared Salmon              $42.00
+  Lobster Mac & Cheese           $38.00
+  House Salad (x2)               $24.00
+  Sparkling water (x3)            $9.00
+                       Subtotal: $172.00
+                   Tax (8.9%):    $15.30
+                          TOTAL: $187.30
+  Tip:                            $34.00
+
+Payment: Corporate Visa ending 4421
+Check #4710
+--- End Receipt ---

@@ -12,9 +12,9 @@ Invoice #GADS-2025-03-5591
 Billing period: 2025-03-01 to 2025-03-31
 Account: acme-corp-marketing (ID: 847-221-9034)
 
-  Search campaigns                $1,240.00
-  Display network                   $580.00
-  YouTube pre-roll                  $280.00
+  Search campaigns                  $1,240.00
+  Display network                     $580.00
+  YouTube pre-roll                    $280.00
                           Subtotal: $2,100.00
                                Tax:     $0.00
                              TOTAL: $2,100.00

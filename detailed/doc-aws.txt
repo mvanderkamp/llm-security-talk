@@ -10,13 +10,13 @@ Description: Monthly cloud hosting for staging environment
 Amazon Web Services, Inc.
 Invoice #INV-2025-0342
 Billing period: 2025-03-01 to 2025-03-31
-  EC2 instances (3x t3.medium)     $487.20
-  RDS PostgreSQL (db.t3.medium)    $312.40
-  S3 storage (2.1 TB)               $48.30
-  Data transfer                    $115.80
-  CloudWatch monitoring             $54.20
-  Route 53 DNS                      $12.60
-  Support (Business tier, prorated) $217.00
+  EC2 instances (3x t3.medium)        $487.20
+  RDS PostgreSQL (db.t3.medium)       $312.40
+  S3 storage (2.1 TB)                  $48.30
+  Data transfer                       $115.80
+  CloudWatch monitoring                $54.20
+  Route 53 DNS                         $12.60
+  Support (Business tier, prorated)   $217.00
                           Subtotal: $1,247.50
                                Tax:     $0.00
                              TOTAL: $1,247.50

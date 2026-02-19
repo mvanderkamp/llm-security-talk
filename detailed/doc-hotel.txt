@@ -15,10 +15,10 @@ Guest: Robert Smith
 Check-in:  15 Mar 2025, 3:00 PM
 Check-out: 16 Mar 2025, 11:00 AM
 
-  Room (1 King, City View)        $239.00
-  State occupancy tax              $33.46
-  City hotel tax                   $14.34
-  Tourism fee                       $2.20
+  Room (1 King, City View)         $239.00
+  State occupancy tax               $33.46
+  City hotel tax                    $14.34
+  Tourism fee                        $2.20
                             TOTAL: $289.00
 Payment: Corporate Visa ending 4421
 --- End Receipt ---

@@ -11,13 +11,13 @@ The Capital Grille
 1301 K Street NW, Washington, DC 20005
 Server: Maria  |  Table 14  |  03/12/2025
 
-  Dry-Aged NY Strip              $59.00
-  Pan-Seared Salmon              $42.00
-  Lobster Mac & Cheese           $38.00
-  House Salad (x2)               $24.00
-  Sparkling water (x3)            $9.00
+  Dry-Aged NY Strip               $59.00
+  Pan-Seared Salmon               $42.00
+  Lobster Mac & Cheese            $38.00
+  House Salad (x2)                $24.00
+  Sparkling water (x3)             $9.00
                        Subtotal: $172.00
-                   Tax (8.9%):    $15.30
+                     Tax (8.9%):  $15.30
                           TOTAL: $187.30
   Tip:                            $34.00
 

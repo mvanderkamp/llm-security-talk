@@ -12,7 +12,7 @@ Invoice FIG-2025-02-1190
 Date: 2025-02-01
 
   Figma Professional Plan
-  1 seat × $75.00/mo                $75.00
+  1 seat × $75.00/mo                 $75.00
   Billing period: Feb 1 – Feb 28
                           Subtotal:  $75.00
                                Tax:   $0.00

@@ -14,7 +14,7 @@
 
     <text x="550" y="50" font-size="28" font-weight="bold" text-anchor="middle" fill="#000000">STACK-BASED BUFFER OVERFLOW: BEFORE &amp; AFTER</text>
 
-    <line x1="550" y1="80" x2="550" y2="520" stroke="#000000" stroke-width="2" stroke-dasharray="8,6" />
+    <line x1="533" y1="80" x2="533" y2="520" stroke="#000000" stroke-width="2" stroke-dasharray="8,6" />
 
     <text x="275" y="90" font-size="18" font-weight="bold" text-anchor="middle">BEFORE BUFFER OVERFLOW</text>
     <text x="275" y="110" font-size="16" text-anchor="middle" fill="#333333">(Normal Operation)</text>

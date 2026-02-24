@@ -7,9 +7,9 @@
             <path d="M 0 0 L 10 5 L 0 10 z" fill="#d73027" />
         </marker>
 
-        <path id="brace-buffer" d="M 0 0 Q 10 0 10 10 L 10 15 Q 10 20 20 20 Q 10 20 10 25 L 10 30 Q 10 40 0 40" fill="none" stroke="#000" stroke-width="1.5"/>
-        <path id="brace-right" d="M 0 0 Q 10 0 10 10 L 10 20 Q 10 30 20 30 Q 10 30 10 40 L 10 50 Q 10 60 0 60" fill="none" stroke="#000" stroke-width="1.5"/>
-        <path id="brace-right-long" d="M 0 0 Q 10 0 10 10 L 10 45 Q 10 55 20 55 Q 10 55 10 65 L 10 100 Q 10 110 0 110" fill="none" stroke="#000" stroke-width="1.5"/>
+        <path id="brace-40" d="M 0 0 Q 10 0 10 10 L 10 15 Q 10 20 20 20 Q 10 20 10 25 L 10 30 Q 10 40 0 40" fill="none" stroke="#000" stroke-width="1.5"/>
+        <path id="brace-50" d="M 0 0 Q 10 0 10 10 L 10 15 Q 10 25 20 25 Q 10 25 10 35 L 10 40 Q 10 50 0 50" fill="none" stroke="#000" stroke-width="1.5"/>
+        <path id="brace-130" d="M 0 0 Q 10 0 10 10 L 10 55 Q 10 65 20 65 Q 10 65 10 75 L 10 120 Q 10 130 0 130" fill="none" stroke="#000" stroke-width="1.5"/>
     </defs>
 
     <text x="550" y="50" font-size="28" font-weight="bold" text-anchor="middle" fill="#000000">STACK-BASED BUFFER OVERFLOW: BEFORE &amp; AFTER</text>
@@ -53,7 +53,7 @@
     <text x="120" y="285" font-size="16" font-family="monospace" text-anchor="end" letter-spacing="2">HELLO</text>
     <line x1="125" y1="280" x2="170" y2="280" stroke="#000000" stroke-width="2" marker-end="url(#arrow)" />
 
-    <use href="#brace-buffer" x="365" y="260" />
+    <use href="#brace-40" x="365" y="260" />
     <text x="395" y="276" font-size="14" font-weight="bold">Buffer</text>
     <text x="395" y="292" font-size="13" fill="#333">(e.g., char[8])</text>
 
@@ -110,15 +110,15 @@
     <text x="650" y="303" font-size="14" font-weight="bold" text-anchor="end">OVERFLOW...</text>
     <line x1="660" y1="280" x2="710" y2="280" stroke="#000000" stroke-width="2" marker-end="url(#arrow)" />
 
-    <use href="#brace-buffer" x="905" y="260" />
+    <use href="#brace-40" x="905" y="260" />
     <text x="935" y="276" font-size="14" font-weight="bold">Buffer</text>
     <text x="935" y="292" font-size="13" fill="#333">(e.g., char[8])</text>
 
-    <use href="#brace-right" x="905" y="300" />
+    <use href="#brace-50" x="905" y="300" />
     <text x="935" y="320" font-size="14" font-weight="bold">Return Address</text>
     <text x="935" y="340" font-size="13" fill="#333">(Critical)</text>
 
-    <use href="#brace-right-long" x="905" y="360" />
+    <use href="#brace-130" x="905" y="350" />
     <text x="935" y="405" font-size="14" font-weight="bold">Overflow Data</text>
     <text x="935" y="425" font-size="13" fill="#333">(Malicious payload,</text>
     <text x="935" y="445" font-size="13" fill="#333">e.g., Shellcode)</text>

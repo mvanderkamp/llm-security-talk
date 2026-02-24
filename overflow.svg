@@ -9,10 +9,6 @@
     </marker>
   </defs>
 
-  <!-- TITLE -->
-  <text x="380" y="38" font-size="22" font-weight="bold" text-anchor="middle" fill="#111">BUFFER OVERFLOW</text>
-  <text x="380" y="58" font-size="13" text-anchor="middle" fill="#777">A buffer overflow overwrites the return address, redirecting execution to attacker-supplied data</text>
-
   <!-- DIVIDER -->
   <line x1="380" y1="72" x2="380" y2="365" stroke="#ccc" stroke-width="1.5" stroke-dasharray="6,4"/>
 

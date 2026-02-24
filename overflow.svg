@@ -20,9 +20,9 @@
     <text x="275" y="110" font-size="16" text-anchor="middle" fill="#333333">(Normal Operation)</text>
 
     <rect x="180" y="140" width="180" height="340" fill="#ffffff" stroke="#000000" stroke-width="2" />
-
     <rect x="180" y="260" width="180" height="40" fill="#9ecae1" stroke="#000000" stroke-width="1" />
     <rect x="180" y="300" width="180" height="50" fill="#cccccc" stroke="#000000" stroke-width="1" />
+
     <line x1="202.5" y1="260" x2="202.5" y2="300" stroke="#000000" stroke-width="1" />
     <line x1="225" y1="260" x2="225" y2="300" stroke="#000000" stroke-width="1" />
     <line x1="247.5" y1="260" x2="247.5" y2="300" stroke="#000000" stroke-width="1" />
@@ -43,7 +43,7 @@
     </g>
 
     <text x="270" y="320" font-size="14" font-weight="bold" text-anchor="middle">Return Address</text>
-    <text x="270" y="338" font-size="13" text-anchor="middle" fill="#333333">(Critical)</text>
+    <text x="270" y="338" font-size="13" text-anchor="middle" fill="#333333">0x00401234</text>
 
     <text x="270" y="510" font-size="16" font-weight="bold" text-anchor="middle">STACK MEMORY</text>
     <text x="270" y="530" font-size="14" text-anchor="middle" fill="#333333">(Grows Downwards)</text>
@@ -54,8 +54,7 @@
     <line x1="125" y1="280" x2="170" y2="280" stroke="#000000" stroke-width="2" marker-end="url(#arrow)" />
 
     <use href="#brace-40" x="365" y="260" />
-    <text x="395" y="276" font-size="14" font-weight="bold">Buffer</text>
-    <text x="395" y="292" font-size="13" fill="#333">(e.g., char[8])</text>
+    <text x="395" y="285" font-size="14" font-weight="bold">Buffer</text>
 
     <line x1="360" y1="325" x2="400" y2="325" stroke="#000000" stroke-width="2" marker-end="url(#arrow)" />
     <text x="410" y="320" font-size="14" font-weight="bold">Code to Execute</text>
@@ -67,10 +66,10 @@
     <text x="825" y="110" font-size="16" text-anchor="middle" fill="#333333">(Exploited State)</text>
 
     <rect x="720" y="140" width="180" height="340" fill="#ffffff" stroke="#000000" stroke-width="2" />
-
     <rect x="720" y="260" width="180" height="40" fill="#fc9272" stroke="#000000" stroke-width="1" />
     <rect x="720" y="300" width="180" height="50" fill="#fc9272" stroke="#000000" stroke-width="1" />
     <rect x="720" y="350" width="180" height="130" fill="#fc9272" stroke="#000000" stroke-width="1" />
+
     <line x1="742.5" y1="260" x2="742.5" y2="300" stroke="#000000" stroke-width="1" />
     <line x1="765" y1="260" x2="765" y2="300" stroke="#000000" stroke-width="1" />
     <line x1="787.5" y1="260" x2="787.5" y2="300" stroke="#000000" stroke-width="1" />
@@ -86,45 +85,40 @@
     <text x="810" y="220" font-size="14" text-anchor="middle">&amp; Local Variables</text>
 
     <g font-family="monospace" font-size="16" text-anchor="middle" fill="#000000">
-        <text x="731.25" y="286">H</text>
-        <text x="753.75" y="286">E</text>
-        <text x="776.25" y="286">L</text>
-        <text x="798.75" y="286">L</text>
-        <text x="821.25" y="286">O</text>
-        <text x="843.75" y="286">W</text>
+        <text x="731.25" y="286">O</text>
+        <text x="753.75" y="286">V</text>
+        <text x="776.25" y="286">E</text>
+        <text x="798.75" y="286">R</text>
+        <text x="821.25" y="286">F</text>
+        <text x="843.75" y="286">L</text>
         <text x="866.25" y="286">O</text>
-        <text x="888.75" y="286">R</text>
+        <text x="888.75" y="286">W</text>
     </g>
 
-    <text x="810" y="332" font-size="16" font-family="monospace" text-anchor="middle">L D ! O V E R F</text>
-    <text x="810" y="376" font-size="16" font-family="monospace" text-anchor="middle">X 9 0 C C 9 0 E</text>
-    <text x="810" y="416" font-size="16" font-family="monospace" text-anchor="middle">H 3 4 B C 6 9 F</text>
-    <text x="810" y="460" font-size="16" font-family="monospace" text-anchor="middle">X Q Y P 8 9 3 H</text>
+    <text x="810" y="330" font-size="16" font-family="monospace" font-weight="bold" text-anchor="middle">0x7FFF56A0</text>
+    <text x="810" y="376" font-size="16" font-family="monospace" text-anchor="middle">[ SHELLCODE ]</text>
+    <text x="810" y="416" font-size="16" font-family="monospace" text-anchor="middle">[ SHELLCODE ]</text>
+    <text x="810" y="460" font-size="16" font-family="monospace" text-anchor="middle">\x00 \x00 \x00</text>
 
     <text x="810" y="510" font-size="16" font-weight="bold" text-anchor="middle">STACK MEMORY</text>
     <text x="810" y="530" font-size="14" text-anchor="middle" fill="#333333">(Grows Downwards)</text>
 
     <text x="650" y="245" font-size="14" font-weight="bold" text-anchor="end">Input Data</text>
     <text x="650" y="263" font-size="14" text-anchor="end">(Too Long)</text>
-    <text x="650" y="285" font-size="14" font-weight="bold" text-anchor="end">HELLOWORLD!</text>
-    <text x="650" y="303" font-size="14" font-weight="bold" text-anchor="end">OVERFLOW...</text>
+    <text x="650" y="285" font-size="14" font-weight="bold" text-anchor="end">OVERFLOW\x7F</text>
+    <text x="650" y="303" font-size="14" font-weight="bold" text-anchor="end">\xFF\x56\xA0...</text>
     <line x1="660" y1="280" x2="710" y2="280" stroke="#000000" stroke-width="2" marker-end="url(#arrow)" />
 
+    <path d="M 720 325 L 685 325 L 685 375 L 710 375" fill="none" stroke="#d73027" stroke-width="2" marker-end="url(#red-arrow)" />
+    <text x="670" y="350" font-size="12" font-weight="bold" text-anchor="end" fill="#d73027">Hijacked!</text>
+
     <use href="#brace-40" x="905" y="260" />
-    <text x="935" y="276" font-size="14" font-weight="bold">Buffer</text>
-    <text x="935" y="292" font-size="13" fill="#333">(e.g., char[8])</text>
+    <text x="935" y="285" font-size="14" font-weight="bold">Buffer</text>
 
     <use href="#brace-50" x="905" y="300" />
-    <text x="935" y="320" font-size="14" font-weight="bold">Return Address</text>
-    <text x="935" y="340" font-size="13" fill="#333">(Critical)</text>
+    <text x="935" y="330" font-size="14" font-weight="bold">New Ret Address</text>
 
     <use href="#brace-130" x="905" y="350" />
-    <text x="935" y="405" font-size="14" font-weight="bold">Overflow Data</text>
-    <text x="935" y="425" font-size="13" fill="#333">(Malicious payload,</text>
-    <text x="935" y="445" font-size="13" fill="#333">e.g., Shellcode)</text>
+    <text x="935" y="415" font-size="14" font-weight="bold">Malicious Payload</text>
 
-    <path d="M 720 325 L 685 325 L 685 440 L 710 440" fill="none" stroke="#d73027" stroke-width="2" marker-end="url(#red-arrow)" />
-    <text x="670" y="375" font-size="14" font-weight="bold" text-anchor="end">Hijacked Pointer</text>
-    <text x="670" y="395" font-size="14" text-anchor="end">to Malicious</text>
-    <text x="670" y="415" font-size="14" text-anchor="end">Shellcode</text>
 </svg>

@@ -14,7 +14,7 @@
 
     <text x="550" y="50" font-size="28" font-weight="bold" text-anchor="middle" fill="#000000">STACK-BASED BUFFER OVERFLOW: BEFORE &amp; AFTER</text>
 
-    <line x1="533" y1="80" x2="533" y2="520" stroke="#000000" stroke-width="2" stroke-dasharray="8,6" />
+    <line x1="520" y1="80" x2="520" y2="520" stroke="#000000" stroke-width="2" stroke-dasharray="8,6" />
 
     <text x="275" y="90" font-size="18" font-weight="bold" text-anchor="middle">BEFORE BUFFER OVERFLOW</text>
     <text x="275" y="110" font-size="16" text-anchor="middle" fill="#333333">(Normal Operation)</text>
@@ -23,13 +23,15 @@
     <rect x="180" y="260" width="180" height="40" fill="#9ecae1" stroke="#000000" stroke-width="1" />
     <rect x="180" y="300" width="180" height="50" fill="#cccccc" stroke="#000000" stroke-width="1" />
 
-    <line x1="202.5" y1="260" x2="202.5" y2="300" stroke="#000000" stroke-width="1" />
-    <line x1="225" y1="260" x2="225" y2="300" stroke="#000000" stroke-width="1" />
-    <line x1="247.5" y1="260" x2="247.5" y2="300" stroke="#000000" stroke-width="1" />
-    <line x1="270" y1="260" x2="270" y2="300" stroke="#000000" stroke-width="1" />
-    <line x1="292.5" y1="260" x2="292.5" y2="300" stroke="#000000" stroke-width="1" />
-    <line x1="315" y1="260" x2="315" y2="300" stroke="#000000" stroke-width="1" />
-    <line x1="337.5" y1="260" x2="337.5" y2="300" stroke="#000000" stroke-width="1" />
+    <g stroke="#000000" stroke-width="1">
+        <line x1="202.5" y1="260" x2="202.5" y2="300" />
+        <line x1="225" y1="260" x2="225" y2="300" />
+        <line x1="247.5" y1="260" x2="247.5" y2="300" />
+        <line x1="270" y1="260" x2="270" y2="300" />
+        <line x1="292.5" y1="260" x2="292.5" y2="300" />
+        <line x1="315" y1="260" x2="315" y2="300" />
+        <line x1="337.5" y1="260" x2="337.5" y2="300" />
+    </g>
 
     <text x="270" y="200" font-size="14" text-anchor="middle">Function Parameters</text>
     <text x="270" y="220" font-size="14" text-anchor="middle">&amp; Local Variables</text>
@@ -42,8 +44,7 @@
         <text x="281.25" y="286">O</text>
     </g>
 
-    <text x="270" y="320" font-size="14" font-weight="bold" text-anchor="middle">Return Address</text>
-    <text x="270" y="338" font-size="13" text-anchor="middle" fill="#333333">0x00401234</text>
+    <text x="270" y="332" font-size="14" font-family="monospace" text-anchor="middle">0x00401234</text>
 
     <text x="270" y="510" font-size="16" font-weight="bold" text-anchor="middle">STACK MEMORY</text>
     <text x="270" y="530" font-size="14" text-anchor="middle" fill="#333333">(Grows Downwards)</text>
@@ -56,11 +57,8 @@
     <use href="#brace-40" x="365" y="260" />
     <text x="395" y="285" font-size="14" font-weight="bold">Buffer</text>
 
-    <line x1="360" y1="325" x2="400" y2="325" stroke="#000000" stroke-width="2" marker-end="url(#arrow)" />
-    <text x="410" y="320" font-size="14" font-weight="bold">Code to Execute</text>
-    <text x="410" y="340" font-size="13" fill="#333">(Normal Program</text>
-    <text x="410" y="360" font-size="13" fill="#333">Flow)</text>
-
+    <use href="#brace-50" x="365" y="300" />
+    <text x="395" y="330" font-size="14" font-weight="bold">Return Address</text>
 
     <text x="825" y="90" font-size="18" font-weight="bold" text-anchor="middle">AFTER BUFFER OVERFLOW</text>
     <text x="825" y="110" font-size="16" text-anchor="middle" fill="#333333">(Exploited State)</text>
@@ -70,16 +68,15 @@
     <rect x="720" y="300" width="180" height="50" fill="#fc9272" stroke="#000000" stroke-width="1" />
     <rect x="720" y="350" width="180" height="130" fill="#fc9272" stroke="#000000" stroke-width="1" />
 
-    <line x1="742.5" y1="260" x2="742.5" y2="300" stroke="#000000" stroke-width="1" />
-    <line x1="765" y1="260" x2="765" y2="300" stroke="#000000" stroke-width="1" />
-    <line x1="787.5" y1="260" x2="787.5" y2="300" stroke="#000000" stroke-width="1" />
-    <line x1="810" y1="260" x2="810" y2="300" stroke="#000000" stroke-width="1" />
-    <line x1="832.5" y1="260" x2="832.5" y2="300" stroke="#000000" stroke-width="1" />
-    <line x1="855" y1="260" x2="855" y2="300" stroke="#000000" stroke-width="1" />
-    <line x1="877.5" y1="260" x2="877.5" y2="300" stroke="#000000" stroke-width="1" />
-
-    <line x1="720" y1="390" x2="900" y2="390" stroke="#000000" stroke-width="1" />
-    <line x1="720" y1="430" x2="900" y2="430" stroke="#000000" stroke-width="1" />
+    <g stroke="#000000" stroke-width="1">
+        <line x1="742.5" y1="260" x2="742.5" y2="300" />
+        <line x1="765" y1="260" x2="765" y2="300" />
+        <line x1="787.5" y1="260" x2="787.5" y2="300" />
+        <line x1="810" y1="260" x2="810" y2="300" />
+        <line x1="832.5" y1="260" x2="832.5" y2="300" />
+        <line x1="855" y1="260" x2="855" y2="300" />
+        <line x1="877.5" y1="260" x2="877.5" y2="300" />
+    </g>
 
     <text x="810" y="200" font-size="14" text-anchor="middle">Function Parameters</text>
     <text x="810" y="220" font-size="14" text-anchor="middle">&amp; Local Variables</text>
@@ -96,9 +93,8 @@
     </g>
 
     <text x="810" y="330" font-size="16" font-family="monospace" font-weight="bold" text-anchor="middle">0x7FFF56A0</text>
-    <text x="810" y="376" font-size="16" font-family="monospace" text-anchor="middle">[ SHELLCODE ]</text>
-    <text x="810" y="416" font-size="16" font-family="monospace" text-anchor="middle">[ SHELLCODE ]</text>
-    <text x="810" y="460" font-size="16" font-family="monospace" text-anchor="middle">\x00 \x00 \x00</text>
+
+    <text x="810" y="420" font-size="18" font-family="monospace" font-weight="bold" text-anchor="middle">[ SHELLCODE ]</text>
 
     <text x="810" y="510" font-size="16" font-weight="bold" text-anchor="middle">STACK MEMORY</text>
     <text x="810" y="530" font-size="14" text-anchor="middle" fill="#333333">(Grows Downwards)</text>
@@ -119,6 +115,6 @@
     <text x="935" y="330" font-size="14" font-weight="bold">New Ret Address</text>
 
     <use href="#brace-130" x="905" y="350" />
-    <text x="935" y="415" font-size="14" font-weight="bold">Malicious Payload</text>
+    <text x="935" y="420" font-size="14" font-weight="bold">Malicious Payload</text>
 
 </svg>

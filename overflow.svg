@@ -31,7 +31,16 @@
 
     <text x="270" y="185" font-size="14" text-anchor="middle">Function Parameters</text>
     <text x="270" y="205" font-size="14" text-anchor="middle">&amp; Local Variables</text>
-    <text x="270" y="263" font-size="14" text-anchor="middle" fill="#000000">HELLO</text>
+    <text x="270" y="262" font-size="14" text-anchor="middle" fill="#000000">Valid Data</text>
+
+    <g font-family="monospace" font-size="16" text-anchor="middle" fill="#000000">
+        <text x="191.25" y="294">H</text>
+        <text x="213.75" y="294">E</text>
+        <text x="236.25" y="294">L</text>
+        <text x="258.75" y="294">L</text>
+        <text x="281.25" y="294">O</text>
+    </g>
+
     <text x="270" y="320" font-size="14" font-weight="bold" text-anchor="middle">Return Address</text>
     <text x="270" y="338" font-size="13" text-anchor="middle" fill="#333333">(Critical)</text>
 
@@ -73,8 +82,21 @@
     <text x="810" y="185" font-size="14" text-anchor="middle">Function Parameters</text>
     <text x="810" y="205" font-size="14" text-anchor="middle">&amp; Local Variables</text>
 
-    <text x="810" y="263" font-size="16" font-family="monospace" letter-spacing="4" text-anchor="middle">HELLOWORL</text>
-    <text x="810" y="330" font-size="16" font-family="monospace" letter-spacing="4" text-anchor="middle">D!OVE</text>
+    <g font-family="monospace" font-size="16" text-anchor="middle" fill="#000000">
+        <text x="731.25" y="294">H</text>
+        <text x="753.75" y="294">E</text>
+        <text x="776.25" y="294">L</text>
+        <text x="798.75" y="294">L</text>
+        <text x="821.25" y="294">O</text>
+        <text x="843.75" y="294">W</text>
+        <text x="866.25" y="294">O</text>
+        <text x="888.75" y="294">R</text>
+    </g>
+
+    <text x="810" y="332" font-size="16" font-family="monospace" text-anchor="middle">L D ! O V E R F</text>
+    <text x="810" y="376" font-size="16" font-family="monospace" text-anchor="middle">X 9 0 C C 9 0 E</text>
+    <text x="810" y="416" font-size="16" font-family="monospace" text-anchor="middle">H 3 4 B C 6 9 F</text>
+    <text x="810" y="460" font-size="16" font-family="monospace" text-anchor="middle">X Q Y P 8 9 3 H</text>
 
     <text x="810" y="510" font-size="16" font-weight="bold" text-anchor="middle">STACK MEMORY</text>
     <text x="810" y="530" font-size="14" text-anchor="middle" fill="#333333">(Grows Downwards)</text>

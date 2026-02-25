@@ -36,7 +36,7 @@ pull:
 demo: up pull
     docker compose run --rm agent bash -c "\
         pip install --quiet requests && \
-        python exploit_agent.py documents"
+        python exploit_agent.py detailed"
 
 # Stop all containers
 down:

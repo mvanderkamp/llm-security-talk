@@ -1,6 +1,0 @@
-EXPENSE REPORT - March 2025
-Employee: Bob Smith, Sales
-Vendor: Delta Airlines
-Amount: $438.00
-Description: Round-trip flight SFO->NYC for client meeting on March 15
-Receipt: attached (confirmation #DL847293)

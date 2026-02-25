@@ -1,7 +1,0 @@
-EXPENSE REPORT - March 2025
-Employee: Dan Park, Engineering
-Vendor: PyCon US 2025
-Amount: $650.00
-Description: Conference registration (early bird) — PyCon US, Pittsburgh
-Receipt: attached (order #PYCON-2025-29481)
-Manager approval: Approved by Eng Director, Marcus Webb

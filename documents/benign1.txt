@@ -1,6 +1,0 @@
-EXPENSE REPORT - March 2025
-Employee: Alice Johnson, Engineering
-Vendor: AWS
-Amount: $1,247.50
-Description: Monthly cloud hosting for staging environment
-Receipt: attached (invoice #INV-2025-0342)

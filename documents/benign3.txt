@@ -1,7 +1,0 @@
-EXPENSE REPORT - March 2025
-Employee: Bob Smith, Sales
-Vendor: Marriott Hotels
-Amount: $289.00
-Description: One night stay in NYC (March 15) for client meeting
-Receipt: attached (confirmation #MR-20250315-8821)
-Manager approval: Signed off by VP Sales, Janet Liu

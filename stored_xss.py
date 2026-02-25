@@ -16,7 +16,7 @@ HTML_TEMPLATE = '''
 </head>
 <body>
     <h1>Vulnerable Guestbook</h1>
-    <p>Submit a message. HTML is allowed (and dangerous!)</p>
+    <p>Submit a message.</p>
 
     <form method="POST" action="/post">
         <input type="text" name="message" placeholder="Type something..." required>

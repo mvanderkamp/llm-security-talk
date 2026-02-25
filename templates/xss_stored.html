@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vulnerable Guestbook</title>
+    <style>body { font-family: sans-serif; margin: 40px; line-height: 1.6; }</style>
+</head>
+<body>
+    <h1>Vulnerable Guestbook</h1>
+    <p>Submit a message.</p>
+
+    <form method="POST" action="/post">
+        <input type="text" name="message" placeholder="Type something..." required>
+        <button type="submit">Post Message</button>
+    </form>
+
+    <hr>
+    <h3>Stored Messages:</h3>
+    <ul>
+        <!-- VULNERABLE -->
+        <!-- We use | safe in Jinja2 to explicitly tell it NOT to escape HTML. -->
+        {% for msg in messages %}
+            <li>{{ msg | safe }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

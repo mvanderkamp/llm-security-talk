@@ -160,6 +160,7 @@ For monitoring:
 - [Simon Willison - The Summer of Johann: prompt injections as far as the eye can see](https://simonwillison.net/2025/Aug/15/the-summer-of-johann/)
 - [Snyk - ToxicSkills: malicious payloads in agent skills](https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/)
 - [Trail of Bits - Prompt injection to RCE in AI agents](https://blog.trailofbits.com/2025/10/22/prompt-injection-to-rce-in-ai-agents/)
+- [OWASP Top 10 for Large Language Model Applications](https://genai.owasp.org/llm-top-10/)
 
 ## Conclusion: defense in depth, implemented in layers
 

@@ -75,7 +75,7 @@ For stronger isolation, **DevContainers** are Anthropic's recommended approach (
 [**Docker Sandboxes**](https://docs.docker.com/ai/sandboxes) offer the most turnkey solution, providing microVM-based isolation specifically for coding agents:
 
 ```bash
-docker sandbox run code
+docker sandbox run claude
 ```
 
 Each sandbox gets its own Docker daemon, network isolation with domain allow/deny lists, and workspace syncing. This is the fastest path to meaningful isolation for teams that don't want to configure DevContainers from scratch.
